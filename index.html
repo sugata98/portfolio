@@ -598,7 +598,7 @@ section{
 }
 .clink:first-child{border-top:1px solid var(--border);}
 .clink:hover{padding-left:.6rem;}
-.clink-label{font-size:15px;font-weight:500;}
+.clink-label{font-size:15px;font-weight:500;min-width:100px;}
 .clink-detail{
   font-family:var(--font-mono);font-size:12px;
   color:var(--muted);
@@ -668,7 +668,7 @@ footer{
         <div class="hero-actions">
           <a href="#s3" class="btn-solid">See my work</a>
           <a href="https://github.com/sugata98" target="_blank" class="btn-ghost">GitHub ↗</a>
-          <a href="https://linkedin.com/in/sugata-roy-78b334136" target="_blank" class="btn-ghost">LinkedIn ↗</a>
+          <a href="https://linkedin.com/in/sugataroy" target="_blank" class="btn-ghost">LinkedIn ↗</a>
         </div>
       </div>
       <div class="r" style="transition-delay:.1s">
@@ -724,17 +724,17 @@ footer{
       <div class="pillar">
         <div class="pillar-icon">🤖</div>
         <div class="pillar-title">AI & Platform Engineering</div>
-        <div class="pillar-desc">Led org-wide AI initiatives. Shipped VAPI/LiveKit voice AI, Copilot reviewer systems, MCP-based dev tooling, and an automated RCA skill used across the entire engineering org.</div>
+        <div class="pillar-desc">Led org-wide AI initiatives. Shipped real-time voice/video AI systems, AI reviewer pipelines, MCP-based dev tooling, and automated incident response workflows adopted across the engineering org.</div>
         <div class="pillar-tags">
-          <span class="pt">LLM APIs</span><span class="pt">VAPI</span>
-          <span class="pt">LiveKit</span><span class="pt">MCP</span>
-          <span class="pt">Claude Code</span><span class="pt">Prompt Eng.</span>
+          <span class="pt">LLM APIs</span><span class="pt">Real-time AI</span>
+          <span class="pt">MCP</span><span class="pt">Claude Code</span>
+          <span class="pt">Prompt Eng.</span>
         </div>
       </div>
     </div>
     <div class="ai-callout r" style="transition-delay:.14s">
       <div class="ac-text">
-        <strong>AI-native by default.</strong> Introduced MCP-based AI code review workflows to the engineering org in April 2025 — months before it became company policy. Built the <code style="font-family:var(--font-mono);font-size:12px;color:rgba(255,255,255,.5)">/generate-rca-for-alert</code> Claude Code skill adopted by the entire missions-engg team. Designated by my EM as the senior engineer to own and shape Claude skills for the team.
+        <strong>AI-native by default.</strong> Introduced MCP-based AI code review workflows to the engineering org in April 2025 — months before it became company policy. Built an automated incident response Claude Code skill adopted across the entire engineering org. Designated by my EM as the senior engineer to own and shape AI tooling for the team.
       </div>
       <div class="ac-badge-wrap">
         <span class="ac-badge">Brandon Hall Gold Award</span>
@@ -772,18 +772,18 @@ footer{
           <div class="ep-meta">Mindtickle · Bangalore · Mar 2023 – Present</div>
           <ul class="ep-bullets">
             <li>Frontend lead for <strong>Interactive Missions</strong> — Mindtickle's AI voice/video roleplay platform. Grew from 12 to <strong>110 enterprise customers (9× YoY)</strong>, generating <strong>$350K ARR in 3 months</strong> and <strong>$2.5M+ FY26 deal impact</strong>. Decisive factor in wins over Seismic, Highspot, Allego, and Brainshark.</li>
-            <li>Built the <strong>Whatfix Mirror AI Roleplay embed</strong> (PostMessage protocol, iframe SSO, audio-only VAPI) — directly unblocked a <strong>multi-million ARR Meta deal</strong> (10K users) and shipped the first SCORM-compatible AI Roleplay for Cornerstone LMS distribution.</li>
-            <li>Authored the canonical <strong>Ports & Adapters ADR</strong> governing all AI Roleplay UI development. Decoupled the frontend from VAPI vendor lock-in via provider abstraction — enabling LiveKit migration that eliminates <strong>~$15K+/month</strong> in VAPI costs.</li>
-            <li>Resolved <strong>15+ production incidents</strong> with RCAs. Built the Roleplay Providers Error Dashboard cited in the VAPI S2 outage report (37 companies, 230+ users). SCI credited engineering reliability as a factor in their <strong>$4.3M TCV 5-year renewal</strong>.</li>
-            <li>Introduced <strong>MCP-based AI code review workflows</strong> to the org (#ai-innovation-labs, Apr 2025). Built the <code style="font-family:var(--font-mono);font-size:12px">/generate-rca-for-alert</code> Claude Code skill — adopted company-wide. Designated by EM as the team's senior owner for Claude AI tooling.</li>
+            <li>Built the <strong>Whatfix Mirror AI Roleplay embed</strong> (iframe SSO, PostMessage protocol, audio-only roleplay) — directly unblocked a <strong>multi-million ARR enterprise deal</strong> (10K users) and shipped the first SCORM-compatible AI Roleplay for external LMS distribution.</li>
+            <li>Authored the canonical <strong>Ports & Adapters architecture</strong> governing all AI Roleplay UI development — decoupled the frontend from vendor lock-in via pluggable provider abstractions, enabling cost-saving infrastructure migrations worth <strong>~$15K+/month</strong>.</li>
+            <li>Resolved <strong>15+ production incidents</strong> with full RCAs. Built observability dashboards that quantified customer impact during major outages. Engineering reliability cited by a key customer as a factor in their <strong>$4.3M TCV 5-year renewal</strong>.</li>
+            <li>Introduced <strong>MCP-based AI workflows</strong> to the org — PR automation, AI code review, and an automated incident response skill adopted company-wide. Designated by EM as the team's senior owner for AI developer tooling.</li>
             <li>Led Interactive Missions 1.5 as project lead, <strong>mentored 3+ engineers</strong>, and served as designated team escalation point during lead absence.</li>
           </ul>
           <div class="ep-chips">
             <span class="chip">React</span><span class="chip">TypeScript</span>
             <span class="chip">Go</span><span class="chip">GraphQL</span>
-            <span class="chip">gRPC</span><span class="chip">VAPI</span>
-            <span class="chip">LiveKit</span><span class="chip">AWS</span>
-            <span class="chip">MCP</span><span class="chip">Claude Code</span>
+            <span class="chip">gRPC</span><span class="chip">Real-time AI</span>
+            <span class="chip">AWS</span><span class="chip">MCP</span>
+            <span class="chip">Claude Code</span>
           </div>
         </div>
         <!-- PANEL 2 -->
@@ -931,7 +931,7 @@ footer{
           <div class="scat-name">AI & Platform</div>
           <div class="scat-pills">
             <span class="sp">LLM APIs (OpenAI, Gemini)</span>
-            <span class="sp">VAPI</span><span class="sp">LiveKit</span>
+            <span class="sp">Real-time AI Systems</span>
             <span class="sp">MCP</span><span class="sp">Claude Code</span>
             <span class="sp">Prompt Engineering</span>
             <span class="sp">Agentic Workflows</span>
@@ -967,9 +967,9 @@ footer{
             <span class="clink-detail">sugata98@gmail.com</span>
             <span class="clink-arr">→</span>
           </a>
-          <a href="https://linkedin.com/in/sugata-roy-78b334136" target="_blank" class="clink">
+          <a href="https://linkedin.com/in/sugataroy" target="_blank" class="clink">
             <span class="clink-label">LinkedIn</span>
-            <span class="clink-detail">sugata-roy-78b334136</span>
+            <span class="clink-detail">linkedin.com/in/sugataroy</span>
             <span class="clink-arr">→</span>
           </a>
           <a href="https://github.com/sugata98" target="_blank" class="clink">
